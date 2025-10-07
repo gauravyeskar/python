@@ -14,6 +14,3 @@ print("The sgst amount is: ",sgst)
 print("*"*40)
 print("The actual amount to pay is: ",aa)
 print("*"*40)
-
-
-

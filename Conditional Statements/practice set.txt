@@ -1,0 +1,463 @@
+Basic Python Practice Questions – Set 1
+
+🔹 1. Print your name and college
+🔹 2. Take your favorite color as input and print
+🔹 3. Take your first name and last name, then join them
+🔹 4. Input your city and print a sentence.
+🔹 5. Make a mini profile using 3 variables
+🔹 6. Take any sentence and print it 3 times using +
+       sentence = input("Enter a sentence: ")
+       print(sentence + " " + sentence + " " + sentence)
+🔹 7. Create 3 variables: fruit, drink, snack and print a sentence
+       	fruit = "apple"
+	drink = "coffee"
+	snack = "biscuits"
+	print("Today I had", fruit + ",", drink, "and", snack)
+🔹 8. Input two strings and swap their values using 3rd variable.
+🔹 9. Input two strings and swap their values without using 3rd variable. 
+	a = input("Enter first word: ")
+	b = input("Enter second word: ")
+	temp = a
+	a = b
+	b = temp
+	print("After swapping:", a, b)
+🔹 10. Input a movie and a song you like
+	movie = input("Enter a movie you love: ")
+	song = input("Enter a song you love: ")
+	print("You love the movie", movie, "and the song", song)
+*************************************************************************************
+Practice set-2:- Arithmetic Operators.
+🔹 1. Take 2 numbers and print sum, difference, product, division
+🔹 2. Calculate Area of Rectangle : Formula: area = length * breadth
+🔹 3. Calculate Simple Interest :Formula: SI = (P * R * T) / 100
+🔹 4. Find Square and Cube of a Number: square = num ** 2 , cube = num ** 3
+🔹 5. Convert Days into Weeks and Days
+	Input: total_days = 17
+	Output: 2 week(s) and 3 day(s)
+	(Hint: weeks = days // 7, remaining = days % 7)
+🔹 6. Calculate Total Marks and Percentage
+	Input: 5 subject marks
+	Output: total and percentage
+🔹 7. Convert Temperature from Celsius to Fahrenheit
+	Formula: F = (C × 9/5) + 32
+🔹 8. Calculate Volume of a Cube
+	Input: side
+	Formula: V = side ** 3
+🔹 9. Convert Rupees to Paise
+	Input: rupees
+	Output: paise (1 rupee = 100 paise)
+🔹 10. Add 3-digit number’s digits
+	Input: 123
+	Output: 1 + 2 + 3 = 6
+	(Hint: a = n // 100, b = (n // 10) % 10, c = n % 10)
+
+🔍 11.  "+" vs "," in Python print() --- Search it  
+*******************************************************************************************
+Practice set-3 :- 
+🔹 1. Celsius to Fahrenheit
+🔹 2. Cube of a Number
+🔹 3. Rupee to Paise
+🔹 1. Calculate Perimeter of Rectangle
+	Formula: 2 * (length + breadth)
+🔹 2. Convert Minutes into Hours and Minutes
+	Input: 135
+	Output: 2 hour(s) and 15 minute(s)
+🔹 3. Find Area of a Circle
+	Formula: π × r² (use π = 3.14)
+🔹 4. Convert Kilometers to Meters and Centimeters
+	1 km = 1000 m, 1 m = 100 cm
+🔹 5. Convert Seconds into Hours, Minutes, Seconds
+	Input: 3665
+	Output: 1 hour, 1 minute, 5 seconds
+🔹 6. Calculate Discount on a Product
+	Formula: discount = (original_price × discount%) / 100
+🔹 7. Convert Celsius to Kelvin
+	Formula: K = C + 273.15
+🔹 8. Calculate Average of 3 Numbers
+🔹 9. Divide a Pizza into Equal Slices
+	Input: Total slices = 12, friends = 5
+	Output: 2 each, 2 leftover
+🔹 10. Convert Liters to Milliliters
+	1 liter = 1000 ml
+***********************************************************************************
+Practice set-4:-
+🔥 20 Arithmetic Practice Questions (Beginner-Friendly)
+
+🔸 1. Add 3 user input numbers and print the total.
+🔸 2. Subtract second number from first and print.
+🔸 3. Multiply 2 decimal numbers and show result with label.
+🔸 4. Divide one number by another and show both:
+	Normal division
+	Floor division
+
+🔸 5. Convert hours to minutes and seconds.
+	(Hint: 1 hour = 60 mins, 1 min = 60 sec)
+
+🔸 6. Convert meters to kilometers and centimeters.
+	(Hint: 1 km = 1000 m, 1 m = 100 cm)
+
+🔸 7. Find perimeter of a square.
+	Formula: 4 × side
+
+🔸 8. Find surface area of cube.
+	Formula: 6 × side²
+
+🔸 9. Calculate speed.
+	Input: distance, time
+	Formula: speed = distance / time
+
+🔸 10. Calculate price of 5 pens, 3 notebooks and 2 pencils.
+	Take individual prices as input.
+
+🔸 11. Calculate percentage of 3 subjects.
+	Total marks = 300
+	Input: marks in 3 subjects
+	Output: total and percentage
+
+🔸 12. Convert temperature from Fahrenheit to Celsius.
+	Formula: C = (F − 32) × 5/9
+
+🔸 13. Convert grams to kilograms and milligrams.
+🔸 14. Calculate compound interest.
+	Formula: CI = P × (1 + R/100) ^ T
+	(Round off to 2 decimals)
+
+🔸 15. Create a bill generator:
+	Input:
+	Quantity of 3 items
+		Their unit prices
+		Print total cost
+
+🔸 16. Convert age (in years) to:
+	Months
+	Days
+	Weeks
+
+🔸 17. Convert inches to centimeters.
+	(1 inch = 2.54 cm)
+
+🔸 18. Break a 4-digit number into individual digits and print.
+	(Hint: //, %)
+
+🔸 19. Convert total rupees into notes:
+	(Hint: 2000, 500, 100 denominations only)
+
+🔸 20. Take a decimal number and print:
+	Integer part
+	Decimal part
+	(Hint: int() and -)
+***********************************************************************************
+Practice set:- 5
+✅ 20 Python Practice Questions — Only if Condition
+
+🔹 1. Take a number input and check if it is positive.
+🔹 2. Input your age, print “You are adult” if age >= 18.
+🔹 3. Enter a number and check if it is even.
+	(Hint: num % 2 == 0)
+
+🔹 4. Check if the entered temperature is greater than 40 → print “Too Hot”.
+🔹 5. Take a name input — if it equals "admin" then print "Welcome Admin".
+🔹 6. Enter two numbers. Print the first one only if it's greater than second.
+🔹 7. Check if a number is a multiple of 5.
+🔹 8. Take 3 subject marks. Print “You passed” if each mark is above 35.
+	(Hint: Use multiple if)
+
+🔹 9. Enter a character — check if it is a.
+🔹 10. Take username input — if it starts with 'A', print "Name starts with A"
+	(Hint: name[0] == 'A')
+
+🔹 11. Take a number and print “Single digit” if it’s less than 10.
+🔹 12. Check if year is greater than 2024 → print "Future year"
+🔹 13. Enter password → if it is 12345, print “Login success”
+🔹 14. Take a number. If it’s divisible by 3 and 2, print “Divisible by 6”
+🔹 15. Ask user’s country → if input is “India”, print “Namaste 🇮🇳”
+🔹 16. Take marks input, if greater than 90 → print “Excellent”
+🔹 17. Check if user’s age is less than 5 → print “Free ticket”
+🔹 18. Enter a sentence → if length > 50 → print “Long message”
+🔹 19. Enter weight (kg) → if more than 100 → print “Heavyweight”
+🔹 20. Take mobile number → if length is 10 → print “Valid number”
+	(Hint: len(mobile) == 10)
+***********************************************************************************Practice set:- 6
+🔥 20 Logical Python Questions — Only if Based
+
+🔸 1. Enter 3-digit number → print “Yes” if all digits are different.
+	(Hint: Use //, % to break digits)
+
+🔸 2. Take two numbers → print “Equal” if both are same.
+🔸 3. Take an alphabet → print “Vowel” if it's a, e, i, o, or u.
+🔸 4. Check if a number is 2-digit number (between 10 and 99).
+🔸 5. Enter two numbers → print which one is greater
+	(Use two ifs, not else)
+
+🔸 6. Take a number → print “Square number” if square root * square root = number
+	(Hint: use ** 0.5 and int())
+
+🔸 7. Take a 4-digit year → print "Leap Year" if divisible by 4
+	(Ignore full leap logic for now)
+
+🔸 8. Enter marks out of 100 → if marks >= 90 → print “Grade A”
+	(no else)
+
+🔸 9. Enter a name → if name length > 5 → print “Big name”
+🔸 10. Enter a number → if divisible by 4 and not by 100 → print “Special 4”
+🔸 11. Take age → if age >= 60 → print “Senior citizen”
+🔸 12. Enter two numbers → print difference only if it’s greater than 10
+🔸 13. Enter a password → if it contains '123' → print "Weak password"
+🔸 14. Enter your monthly income → if greater than ₹30,000 → print “You should save more”
+🔸 15. Input character → if it is digit (0–9), print “You typed a digit”
+🔸 16. Take 3 subject marks → print “Perfect 100!” for any mark = 100
+	(Use 3 ifs)
+
+🔸 17. Take day number (1–7) → if 1, print “It’s Monday!”
+	(Just check day 1 with if)
+
+🔸 18. Enter time in 24-hour format → if time < 12 → print “Good Morning”
+🔸 19. Take weight in kg → if weight >= 50 and <= 100 → print “Normal range”
+🔸 20. Take a number → if last digit is 5, print “Ends with five”
+	(Hint: num % 10 == 5)
+***********************************************************************************
+Practice set:-7
+🧠 5 Logical Python Questions — Only if Based
+
+🔸 Q1. Check if a 4-digit number has all digits even
+	Input: A 4-digit number
+	Output: Print "All even digits" if each digit is even
+	(Hint: % 2 == 0 for even check)
+
+🔸 Q2. Take a number and check if it ends with 5
+	Input: Any number
+	Output: Print "Ends with 5" if last digit is 5
+	(Hint: num % 10 == 5)
+
+🔸 Q3. Check if the sum of digits is divisible by 3
+	Input: A 3-digit number
+	Output: Print "Sum divisible by 3"
+	(Hint: extract digits, add them, then use % 3 == 0)
+
+🔸 Q4. Check if first and last digit of a number are same
+	Input: 3-digit or 4-digit number
+	Output: Print "Same start and end" if first digit equals last
+	(Hint: Use // for first, % 10 for last)
+
+🔸 Q5. Check if a number has repeated digits (in 3-digit number)
+	Input: 3-digit number
+	Output: Print "Repeated digit found" if any two digits are same
+	(Hint: compare all three: d1 == d2 or d1 == d3 or d2 == d3)
+*******************************************************************************************
+✅ Let’s Start: if-else Practice Questions Set – Level 1
+🎯 First 15 Questions – Real-life & Logical Scenarios
+
+🔹 1. Take a number → print if it’s even or odd
+🔹 2. Input age → print "Adult" if ≥18, else "Minor"
+🔹 3. Input temperature → if >30, print “Hot”; else “Cool”
+🔹 4. Input marks → if ≥33, print “Pass”; else “Fail”
+🔹 5. Enter number → if divisible by 5, print "Yes", else "No"
+🔹 6. Take two numbers → print larger one
+🔹 7. Input password → if equals "admin123", print "Access granted"; else "Wrong password"
+🔹 8. Input number → if multiple of 3, print “Fizz”; else “Not Fizz”
+🔹 9. Input name → if name length > 6, print “Long Name”; else “Short Name”
+🔹 10. Input a year → if divisible by 4, print “Leap Year”; else “Not Leap”
+🔹 11. Enter height (cm) → if ≥150, print “Eligible”; else “Not eligible”
+🔹 12. Take 2 strings → if they are same, print “Match”; else “No Match”
+🔹 13. Enter number → if positive, print “+ve”; else “-ve or Zero”
+🔹 14. Input age → if < 5, print “Free Ticket”; else “Ticket Needed”
+🔹 15. Take total bill → if >1000, print “Discount applied”; else “No discount”
+***********************************************************************************practice set:- 8
+✅ if-else Practice Set – Level 2 (Q16 to Q65)
+(Total today = 65 questions as requested)
+
+🔹 16. Enter a number, check if it's a 3-digit number.
+🔹 17. Take 3 subject marks → if all ≥ 35, print “Pass”, else “Fail”
+🔹 18. Enter a character → check if it is a digit (0–9)
+🔹 19. Input mobile number → if length is 10, print “Valid”, else “Invalid”
+🔹 20. Enter salary → if >50,000, print “High Earner”, else “Average 	Earner”
+🔹 21. Input 2 numbers → check if their sum is even, else “Sum is odd”
+🔹 22. Input a string → if it contains '@', print “Email detected”, else 	“Not email”
+🔹 23. Enter a year → check if it’s 4-digit or not
+🔹 24. Input marks → if ≥90, “Grade A”; else “Not Grade A”
+🔹 25. Check if number is divisible by 2 and 7 both
+🔹 26. Enter temperature → if between 15 and 30, print “Pleasant Weather”, 	else “Extreme”
+🔹 27. Take input for gender (M/F) → if M: “Hello Sir”, else: “Hello Ma’am”
+🔹 28. Input two strings → print the longer one
+🔹 29. Enter a name → if it starts with vowel, print “Nice name!”, else 	“Try another”
+🔹 30. Input number → check if last digit is 0
+🔹 31. Enter 2 numbers → if both are equal, print “Twins!”, else 	“Different”
+🔹 32. Check if number ends with 3 or 7
+🔹 33. Input 2 numbers → if product > 100, print “High”, else “Low”
+🔹 34. Take a sentence → if it has more than 10 words, print “Long message”
+🔹 35. Input full name → if contains a space, print “Full name valid”, else 	“Incomplete”
+🔹 36. Enter a price → if >1000, apply discount of ₹100 and show new price
+🔹 37. Input number → if square of number > 500, print “Big square”
+🔹 38. Check if entered time (0–23) is morning (0–11) or evening (12–23)
+🔹 39. Enter 3 numbers → if all are equal, print “Triple Match”
+🔹 40. Check if any one of the 3 digits in a number is 5
+🔹 41. Enter 3 numbers → print the largest (using if-else only)
+🔹 42. Take a number → if it’s prime (for now, just check: 2, 3, 5, 7 only)
+🔹 43. Enter user role → if “admin”, allow access; else deny
+🔹 44. Enter a number → if it’s a palindrome (same forward & backward)
+🔹 45. Enter text → if it has capital letters, print “Contains Uppercase”
+🔹 46. Input age → if 18–25 → print “Youth”; else “Other Age Group”
+🔹 47. Enter a number → if cube is greater than square, print “More Cubic!”
+🔹 48. Enter food name → if it’s “pizza”, “burger”, or “fries”, print “Junk 	Food”
+🔹 49. Take input for score out of 5 → if 5, print “Excellent!” else 	“Thanks for rating”
+🔹 50. Enter password → if length ≥8 and contains number → “Strong”, else 	“Weak”
+🔹 51. Check if a number is both even and divisible by 3
+🔹 52. Enter string → check if it ends with .com
+🔹 53. Enter a day (Mon/Tue/…) → if Sat/Sun, print “Weekend”
+🔹 54. Input color → if “red”, print “Danger”, else “Safe”
+🔹 55. Enter total amount and quantity → if avg price >100, print 	“Expensive”
+🔹 56. Input kilometers → if >100, print “Long distance”
+🔹 57. Enter mobile number → if it starts with 9, 8, or 7 → print “Valid 	start”
+🔹 58. Enter code → if first 2 letters are ‘IN’, print “Indian Product”
+🔹 59. Take current year and birth year → if age >100, print “Century Old!”
+🔹 60. Input angle → if =90 → “Right angle”, if =180 → “Straight angle”, 	else “Other”
+	(Use nested if)
+
+🔹 61. Enter number → if divisible by both 4 and 6, print “Cool number”
+🔹 62. Enter username → if it contains digits, print “Not clean”
+🔹 63. Take city name → if it's “Mumbai” or “Delhi”, print “Metro City”
+🔹 64. Enter PIN code → if it’s 6 digits, print “Valid PIN”
+🔹 65. Enter weight → if <40 → “Underweight”, if 40–70 → “Normal”, if >70 → 	“Overweight”
+	(Use nested if-else here)
+🔹 66. Python Program to Print the Largest of 3 Numbers (if-else only)
+🔹 67. Largest of 3 Numbers using only if and else (no nesting, no elif)
+****************************************************************************
+🔥 Practice Set: 9:- elif Based Questions (Part 1 – 15 Questions)
+🔹 1. Enter marks → print grade:
+	90+ = A
+	75–89 = B
+	60–74 = C
+	33–59 = D
+	Below 33 = Fail
+
+🔹 2. Enter temperature:
+	40 = “Too Hot”
+	30–40 = “Hot”
+	20–29 = “Warm”
+	<20 = “Cold”
+
+🔹 3. Enter age:
+	<13 → “Child”
+	13–19 → “Teen”
+	20–59 → “Adult”
+	60+ → “Senior Citizen”
+
+🔹 4. Take a number → check:
+	If divisible by 5 → “Div by 5”
+	Else if by 3 → “Div by 3”
+	Else if by 2 → “Div by
+****************************************************************************
+Practice Set: 10
+🔥 elif (30 Problems)
+
+1	Grade calculator – input marks (0‑100) → A (90+), B (75‑89), 	C (60‑74), D (33‑59), Fail (<33).
+2	Temperature message – input °C → “Too Hot” (>40), “Hot” (30‑40), 	“Warm” (20‑29), “Cold” (10‑19), “Freezing” (<10).
+3	Age group – input age → “Child” (<13), “Teen” (13‑19), “Adult” 	(20‑59), “Senior” (60‑79), “Super‑senior” (80+).
+4	Input number → first test divisibility: by 5 → “Div 5”; else by 3 → 	“Div 3”; else by 2 → “Div 2”; else “No match”.
+5	Day of week – input 1‑7 → print day name; 1=Mon … 7=Sun; otherwise 	“Invalid”.
+6	BMI category – input BMI → “Underweight” (<18.5), “Normal” 	(18.5‑24.9), “Overweight” (25‑29.9), “Obese” (≥30).
+7	Movie rating – input rating (⭐ 0‑5 float). 0‑1: “Terrible”, 1‑2: 	“Bad”, 2‑3: “Okay”, 3‑4: “Good”, 4‑5: “Excellent”.
+8	Traffic‑light simulator – input colour string; red → “Stop”, yellow 	→ “Ready”, green → “Go”, anything else → “Signal faulty”.
+9	Internet speed – input Mbps → “Ultra‑fast” (>200), “Fast” (100‑200), 	“Average” (40‑99), “Slow” (<40).
+10	Letter grade – input percentage → A+ (95+), A (90‑94), B+ (85‑89), 	B (75‑84), C (60‑74), D (40‑59), F (<40).
+11	Electricity bill slab – units: ≤100 → ₹1.5/unit, 101‑200 → ₹2.0, 	201‑300 → ₹3, >300 → ₹5 (print total).
+12	Exam topper tie‑breaker – input rank (1‑10): 1 → “Gold”, 2‑3 → 	“Silver”, 4‑5 → “Bronze”, else → “Participant”.
+13	Quarter of year – month number (1‑12) → “Q1/Q2/Q3/Q4”.
+14	Fuel gauge – % left: ≥75 “Full”, 50‑74 “3/4”, 25‑49 “Half”, 10‑24 	“Low”, <10 “Refuel NOW”.
+15	Phone battery – input %, give colour code: Green (>60)
+16	Currency note detector – input value (₹) if 2000, 500, 200, 100, 	else “Unknown note”.
+17	Exam result – input 3 marks; if any <33 → “Fail”; else overall % 	decides grade (reuse Q1 ranges).
+18	Season detector – month: 3‑5 “Spring”, 6‑8 “Summer”, 9‑11 “Autumn”, 	12‑2 “Winter”.
+19	Triangle type – input three angles; if sum 180 then classify: 	right‑angle (one 90), obtuse (one>90), acute (all<90); else “Not 	triangle”.
+20	Shipping fee – cart total: ≥5000 → free, 2000‑4999 → ₹50, 1000‑1999 	→ ₹100, <1000 → ₹150.
+21	Employee bonus – years of service: ≥10 → 10 % salary, 5‑9 → 7 %, 2‑4 	→ 5 %, <2 → 0 %.
+22	Movie ticket price – age <5: free, 5‑12: ₹100, 13‑60: ₹200, >60: 	₹150.
+23	Exam grading (letter & comment) – 90+: “A, Outstanding”, 80‑89: “B, 	Very Good”, 70‑79: “C, Good”, 60‑69: “D, Fair”, else “E, Improve”.
+24	Number sign category – input float: >0 → “Positive”; 0 → “Zero”; <0 	→ “Negative”.
+25	Simple calculator – input two numbers & operator char (+‑*/). Use 	elif to run correct operation, else “Invalid op”.
+26	Planet order – input ordinal (1‑8) → Mercury … Neptune; else “Not a 	planet number”.
+27	Username strength – length <4 “Too short”, 4‑7 “Weak”, 8‑12 	“Moderate”, >12 “Strong”.
+28	Library fine – days late: ≤5 ₹2/day, 6‑10 ₹5/day, 11‑30 ₹10/day, >30 	“Membership cancelled”.
+29	Game score tier – score: 10000+ “Legend”, 5000‑9999 “Pro”, 1000‑4999 	“Average”, <1000 “Noob”.
+30	Colour mixer – input two primary colours; if red+yellow → orange; 	red+blue → purple; blue+yellow → green; identical colours → same; 	any other combo → “Unknown mix”.
+****************************************************************************
+Practice set 11:- 🏦 ATM-Style Nested if-else Practice (Real-Life Simulation Problem
+🔹 1. ATM Withdrawal Simulation
+	Input: Withdrawal amount
+	Outer: Check if amount is multiple of 100
+	Inner:
+	Check if balance is sufficient
+	Deduct amount
+	Show ₹2000/500/100 note count
+
+🔹 2. Login System
+	Input: Username and Password
+	Outer: If username matches
+	Inner: Check if password matches
+ 	→ If both match: "Login Successful"
+	 → Else: "Wrong password" or "Invalid username"
+
+🔹 3. Electricity Bill Generator
+	Input: Units used
+	Outer: If units ≤ 100 → ₹1.5/unit
+	Else → Nested slabs:
+	101–200: ₹2/unit
+	201–300: ₹3/unit
+	300: ₹5/unit
+	Final print: “Total Bill = ₹_____”
+
+🔹 4. Train Ticket Booking
+	Input: Age and Gender
+	Outer: If gender = Female
+	Inner: If age ≥ 60 → 50% discount
+	Else → 30% discount
+	Else → No discount (Male)
+
+🔹 5. Online Payment Gateway
+	Input: Amount and Payment Method
+	Outer: If method = "UPI"
+	Inner: Amount ≤ ₹1000 → 0% charge
+	Else → 1% charge
+	If method = "Card"
+	Amount ≤ ₹5000 → 1.5% charge
+	Else → 2.5% charge
+
+🔹 6. Parking Fee Calculator
+	Input: Vehicle Type (Car/Bike/Truck) and Hours
+	Outer: Check vehicle type
+	Car → ₹50/hr
+	Bike → ₹20/hr
+	Truck → ₹100/hr
+	Inner: If hours > 10 → Extra ₹200 fine
+
+🔹 7. Cash Deposit Machine
+	Input: Note count (₹2000, ₹500, ₹100)
+	Outer: Check if any fake note (user inputs 0 or negative)
+	Else: Calculate total deposit
+	 → If total ≥ ₹50000 → Alert: “Large Deposit Recorded”
+
+🔹 8. Loan Eligibility Check
+	Input: Salary, Credit Score
+	Outer: If salary ≥ ₹25000
+	Inner: If credit score ≥ 700 → "Eligible for Loan"
+	Else → "Improve Credit Score"
+	Else → "Income too low"
+
+🔹 9. Fuel Station Payment
+	Input: Liters of petrol & payment mode
+	Outer: If liters ≥ 10
+	Inner: UPI gets 2% discount
+	Card gets no discount
+	Else → No discount at all
+
+🔹 10. Wallet Recharge Offer
+	Input: Recharge amount
+	Outer: If amount ≥ ₹100
+	Inner: ₹100–199 → 5% cashback
+	₹200–499 → 10% cashback
+	₹500+ → 20% cashback
+	Else → “No cashback available”
+
+
+
+

@@ -1,0 +1,1 @@
+# Koi bhi program ko chalne mein kitna time lagta hai calculate kare.
