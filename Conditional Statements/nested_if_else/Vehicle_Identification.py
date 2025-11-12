@@ -15,3 +15,4 @@ if(0 < tyre < 51):
             print("Heavy Vehicle.")
 else:
     print("Invalid. No such Vehicle is designed.")
+    

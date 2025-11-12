@@ -1,0 +1,4 @@
+[10, 'Rossum', 'Python', 'Data Science', True]
+[20, 'Kinney', 'pandas', 'Data Analyst']
+{'Ritche', 'C', 30}
+{10: 'C', 20: 'C++', 30: 'Python', 40: 'java'}

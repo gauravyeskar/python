@@ -1,0 +1,42 @@
+	*****************************************************************************************
+	 ALPHABETS ANALYSIS 
+	*****************************************************************************************
+Total Length of string is:- 16
+Total Alphabets are:- 14
+Alphabets are:- ['u', 'f', 's', 'h', 'd', 'j', 'T', 'R', 'D', 'G', 'K', 'J', 'N', 'M']
+******************************************************************************************
+Total Lower Alphabets are:- 6
+Lower Alphabets are:- ['u', 'f', 's', 'h', 'd', 'j']
+Total Lower Vowels:- 1
+Lower Vowels are:- ['u']
+Total Lower Consonants:- 5
+Lower Consonants are:- ['f', 's', 'h', 'd', 'j']
+******************************************************************************************
+Total Upper Alphabets are :- 8
+Upper Alphabets are:- ['T', 'R', 'D', 'G', 'K', 'J', 'N', 'M']
+Total Upper Vowels:- 0
+Upper Vowels are:- []
+Total Upper Consonants:- 8
+Upper Consonants are:- ['T', 'R', 'D', 'G', 'K', 'J', 'N', 'M']
+	*****************************************************************************************
+	 DIGITS ANALYSIS 
+	*****************************************************************************************
+Total Digits are:- 2
+Digits are:- ['4', '5']
+******************************************************************************************
+Total Even Numbers are:- 1
+Even Numbers are:- [4]
+Total Odd Numbers are:- 1
+Odd Numbers are:- [5]
+******************************************************************************************
+Total Prime Numbers:- 1
+Prime Numbers are:- [5]
+Total Non-Prime Numbers:- 1
+Non-Prime Numbers are:- [4]
+******************************************************************************************
+Total Palindrome Numbers:- 1
+Palindrome Numbers are:- [4, 5]
+Total Non-Palindrome Numbers:- 0
+Non-Palindrome Numbers are:- []
+******************************************************************************************
+ufshdjTRDGKJNM45

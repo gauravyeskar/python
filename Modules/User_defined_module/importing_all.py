@@ -1,0 +1,27 @@
+# Importing all the modules at once.
+
+import icici, AOP as a
+from mathinfo import PI,e
+print("*"*50)
+print("ICICI Operations: ")
+print("-"*50)
+print("Bank Name: {}".format(icici.bname))
+print("Bank Address: {}".format(icici.addr))
+print("-"*50)
+print("Details: ")
+print("-"*50)
+icici.simple_int()
+print("*"*50)
+print("AOP Operations")
+print("-"*50)
+print(a.add(10,20))
+print(a.sub(30,20))
+print(a.mul(10,20))
+print(a.div(20,10))
+print("-"*50)
+print("*"*50)
+print("Mathinfo Operations:")
+print("-"*50)
+print("Standard Value of PI is {}.".format(PI))
+print("Standard value of E is {}".format(e))
+print("*"*50)

@@ -1,0 +1,76 @@
+# exception handling:- 
+--------------------------
+--------------------------
+* Exception is noting but the error occuring in the program and while running the program.
+* Exception Handling is nothing but converting the technical errors to user friendly messages.
+* Errors are of 3 types:
+        a. Compile Time errors:- Occurs due to wrong syntaxes and occurs during compilation time.
+        b. Logical Error:- Occurs due to wrong representation logics and occurs during runtime.
+        c. Runtime Error:- Occurs due to invalid inputs and occurs at runtime.
+* Exceptions are of two types:
+        a. Inbuilt Exceptions:- Already defined by language programmers.
+                    i) zeroDivisionError
+                    ii) ValueError
+                    iii) IndexError
+                    IV) KeyError
+                    V) Attribute Error
+        b. User-Defined Exceptions:- Developed by programmers and present in the python file.
+                    i) Attempting to invalid pin
+                    ii) Invalid Userid and password
+                    iii) Withdrawing more amount then present amount
+
+* 4 Keywords for handling the exceptions:-
+        i) try: It is a block of statements where exceptions occurs. Every try block haves its own except block.
+                        try:
+                                stmts-----
+                        except:
+                                stmts-----
+        ii) except: It is a block of statements generates user-friendly message.
+        iii) else: It will execute when there is no error in the try block. Its an optional block.
+                        try:
+                                stmts-----
+                        except:
+                                stmts-----
+                        else:
+                                stmts-----
+        iv) Finally: It is a block which will runs compulsory either there is error or there is not a error.
+                        try:
+                                stmts-----
+                        except:
+                                stmts-----
+                        else:
+                                stmts-----
+                        finally:
+                                stmts-----
+                
+   * Various forms of except block:
+   1) Single except block handling one exception at a time.
+    try:
+        ---stmts-----                             
+    except Exception_class_name_1:
+        --- stmts---
+        ---generates user friendly message---
+    try:
+        ---stmts-----                             
+    except Exception_class_name_2:
+        --- stmts---
+        ---generates user friendly message---
+        |
+        |
+        |
+    try:
+        ---stmts-----                             
+    except Exception_class_name_n:
+        --- stmts---
+        ---generates user friendly message---
+
+    2) Single except block handling one exception at a time.
+    try:
+        ---stmts-----                             
+    except(Exception_class_name_1,Exception_class_name_2,------,Exception_class_name_n):
+        ---userfriendly message for Exception_class_name_1,
+        ---userfriendly message for Exception_class_name_2,
+        |
+        |
+        |
+        ---userfriendly message for Exception_class_name_n

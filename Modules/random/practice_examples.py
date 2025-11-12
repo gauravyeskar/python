@@ -1,7 +1,21 @@
 # Pick a random whole number between 1 and 100 (inclusive).
 import random 
+'''
+# used for integer value.
+    1.randint() --> random.randint(start,stop) --> (10-20)
+    2.randrange()  --> random.randrange(start,stop-1) --> (10 - 20-1)
+    -------------------
+# Used for floating point value.
+    1. random()  --> random.random() --> (0.0 to 1.0) values
+    2. uniform() --> random.uniform() --> (10 to 20) values
+    -------------------
+    5. choice() --> random.choice(iterable_obj)
+    6. shuffle() --> random.shuffle(iterable_obj) shuffles the values of mutable type
+    7. sample() --> random.sample(iterable_obj,K=num. of samples)
+    --------------------
+'''
 #print(random.randrange(1,101))
-
+#print(dir(random))
 # Simulate a dice roll by getting a random number between 1 and 6.
 #print(random.randint(1,6))
 
@@ -34,6 +48,10 @@ import random
 #l = ['suit','Hearts','rank','B','color','black','Sports','Football']
 #print(random.shuffle(l))
 
+# s = 'PYTHON'
+# lst = random.sample(s,3)
+# print(lst)
+
 # Create a 12-character password that includes a mix of uppercase letters, lowercase letters, digits, and special characters. You can use random.choice() in a loop to build the string.
 
 
@@ -48,3 +66,24 @@ import random
 
 
 # Take a list of 20 names and randomly divide them into two equal-sized teams.
+
+# With sample() create number plate.
+state = ['MH','MP','GJ','RJ','DD']
+rtocode = ['01','02','03','04','05','06','07','08']
+alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+nums = "0123456789"
+for i in range(1,10):
+    st1 = random.sample(state,1)
+    rto = random.sample(rtocode,1)
+    alpha = random.sample(alpha,2)
+    no = random.sample(nums,4)
+    sst1 = ""
+    sst1 = sst1.join(st1)
+    srto = ""
+    srto = srto.join(rto)
+    salpha = ""
+    salpha = salpha.join(alpha)
+    sno = ""
+    sno = sno.join(no)
+    number_plate = sst1+" " + srto+" " + salpha+" " + sno
+    print(number_plate)

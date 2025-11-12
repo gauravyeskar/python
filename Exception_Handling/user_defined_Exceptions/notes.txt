@@ -1,0 +1,15 @@
+# User defined Exceptions:-
+    These are Exception developed by the python language users and they are available in python project and they are used by project team members for dealing with the same types of errors.
+
+# Steps fpr developing the user-defined Exception
+1. Choose the programmer defined class name
+2. The programmer defined class name must inherit from exception or base exception for inheriting all the exception handling properties.
+3. Save the above two steps code from same file name with an extension (.py)(filename).
+
+# Ex:-
+class PINERROR(Exception):
+                pass
+
+class LoginError(baseException):
+            pass
+

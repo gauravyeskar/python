@@ -16,3 +16,34 @@ mtr=mtr/1000
 print("meter to kilometer is: ",mtr,"kilometer")
 '''
 
+# a= 123
+# res = a // 10
+# rec = a % 100
+# print(res)
+# res = rec
+# print(rec)
+
+num = int(input("Enter the value:- ")) #123...
+count = 0
+for i in num:
+    count +=1
+print(count)
+
+'''
+count = 0
+div= 1
+num = int(input("enter the value:- "))
+
+while num > 0:
+    count +=1
+    num = num // 10
+
+for i in range(num < count):
+    div = div * 10
+
+while div >=1:
+    digt = num / div
+    print(digt)
+    num = num % div 
+    div = div / 10
+    print(num)'''
