@@ -470,3 +470,6 @@ lst = [sar1.intersection(sar2) and sar2.intersection(sar3) and sar3.intersection
 op = str(lst)
 print("Output:- ",op)   '''
 
+# Q-41)Sort Python Dictionary by Key or Value.
+d = {'c': [3], 'b': [12, 10], 'a': [19, 4]}
+print(dict(sorted(d.items())))
