@@ -8,6 +8,6 @@ for i in range(s):
 key_name = input("enter the key_name: ")
 
 if key_name in d:
-    print({key_name}, "key name is available")
+    print({key_name}, "key name is available.")
 else:
-    print({key_name}, "key name is not available")
+    print({key_name}, "key name is not available.")
