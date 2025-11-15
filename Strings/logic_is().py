@@ -95,5 +95,4 @@ if asciii:
     print("True")
 else:
     print("false")
-
-# .istitle():- 
+print("*"*20)
