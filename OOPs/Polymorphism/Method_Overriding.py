@@ -131,7 +131,7 @@ c = Rect()
 c.area()'''
 
 # Print the area's of the following using the multi-level inheritance by constructor.
-class Circle:
+'''class Circle:
     def __init__(self): #Original Constructor
         self.r = float(input("Enter the Radius:- "))
         self.ac = 3.14 * self.r * self.r
@@ -154,4 +154,4 @@ class Rect(Square,Circle):
         print("*"*20)
         Circle.__init__(self) #Class name method calling
 
-c = Rect()
+c = Rect()''' 
