@@ -7,6 +7,6 @@ with open("Dynamic.txt",'a') as fp:
             fp.write(kdata +'\n')
         else:
             break
-    print("Data Written...!!")
+    print("Data Written..!!")
 
 
