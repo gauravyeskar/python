@@ -17,3 +17,4 @@ for i in rev:
     else:
         sum +=i
         print("{} = ".format(i),sum)
+print("-"*20)
