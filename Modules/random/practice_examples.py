@@ -52,23 +52,15 @@ import random
 # lst = random.sample(s,3)
 # print(lst)
 
-# Create a 12-character password that includes a mix of uppercase letters, lowercase letters, digits, and special characters. You can use random.choice() in a loop to build the string.
+# Create a 12-character password that includes a mix of uppercase letters, lowercase letters, digits, and special characters.
+#  You can use random.choice() in a loop to build the string.
 
 
 # Randomly select 6 unique numbers from 1 to 49 for a lottery ticket.
-
-
-
-#Simulate a gumball machine where red gumballs are more common than blue. Given colors = ['red', 'blue'] and weights = [0.8, 0.2], use a function to randomly choose a color based on its weight.
-
-
-# Run a simulation that requires a random outcome (e.g., a number from 1 to 100). Then, use random.seed() to ensure that the next time you run the program, you get the exact same random number.
-
-
-# Take a list of 20 names and randomly divide them into two equal-sized teams.
+print(random.sample(range(1,49),6))
 
 # With sample() create number plate.
-state = ['MH','MP','GJ','RJ','DD']
+'''state = ['MH','MP','GJ','RJ','DD']
 rtocode = ['01','02','03','04','05','06','07','08']
 alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 nums = "0123456789"
@@ -86,4 +78,4 @@ for i in range(1,10):
     sno = ""
     sno = sno.join(no)
     number_plate = sst1+" " + srto+" " + salpha+" " + sno
-    print(number_plate)
+    print(number_plate)'''
