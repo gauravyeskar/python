@@ -1,6 +1,6 @@
 # Program for accepting two numbers for user and find 
 try:
-    print("*"*40)
+    print("*"*30)
     print("Program Execution Started...")
     s1 = input("Enter the first value:- ")
     s2 = input("Enter the second value:- ")
