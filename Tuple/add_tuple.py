@@ -18,3 +18,4 @@ for j in t:
         print("{} = ".format(j),end= " ")
 print(sum)
 print(t,type(t))
+print("-"*20)
