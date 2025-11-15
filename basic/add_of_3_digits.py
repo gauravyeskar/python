@@ -1,3 +1,4 @@
+# Seperating digits and adding them.
 num = int(input("Enter the number value: "))
 a = num // 100
 b = (num // 10) % 10
