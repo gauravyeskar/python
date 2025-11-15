@@ -16,3 +16,4 @@ for j in st:
         print("{} + ".format(j),end= "")
     else: 
         print("{} = ".format(j),sum)
+print("-"*30)
