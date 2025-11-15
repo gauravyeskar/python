@@ -9,8 +9,6 @@ def converttoupper(a):
         return res
     return caseconvert
 
-
-#Main Program
 resstr = converttoupper(getline)
 res = resstr()
 print("Upper Case Data = ",res)
