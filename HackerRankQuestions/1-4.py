@@ -127,3 +127,19 @@ com = list(combinations(ls, k))
 tol = [i for i in com  if "a" in i ]
 print(f'{(len(tol)/len(com)):.12f}') '''
 #############################################################################################################
+# are_Anagrams
+'''def are_anagrams(w1,w2):
+    word1 = sorted(w1.replace(' ','').lower())
+    word2 = sorted(w2.replace(' ','').lower())
+    return word1 == word2
+wordA = "Listen"
+wordB = "Silent"
+print(f"'{wordA}' and '{wordB}' \nare_anagrams: {are_anagrams(wordA,wordB)}")
+'''
+##############################################################################################################################
+'''sq = []
+for x in range(5):
+    sq.append(lambda:x**2)
+print(sq[0]())
+print(sq[4]())'''
+##############################################################################################################################
