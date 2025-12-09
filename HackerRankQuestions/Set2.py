@@ -83,7 +83,7 @@ The question asks you to process a single input string and identify the three mo
 3. If the occurrence count is the same, sort the characters in alphabetical order.
 Eg:- GOOGLE --> G,O,E
 '''
-from collections import Counter
+'''from collections import Counter
 def solve_company_logo(s):
     # 1. Count character occurrences:
     # Counter creates a dictionary-like object: {'a': 2, 'b': 3, 'c': 2, 'd': 1, 'e': 1}
@@ -105,5 +105,103 @@ if __name__ == '__main__':
     s = input().strip()
     
     # Run the solution function
-    solve_company_logo(s)
+    solve_company_logo(s)'''
 
+#####################################################################################################################################
+# When see capital letter then it increments and first 3 letters should be lowercase
+# I/P:- saveChangesInTheEditor
+# O/P:- 5
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'camelcase' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts STRING s as parameter.
+#
+
+'''def camelcase(s):
+    count = 1
+    for i in s:
+        if i.isupper():
+            count+=1
+    return count
+
+s = input("Enter the string:- ")
+print(camelcase(s))'''
+
+#######################################################
+# Strong Password.
+'''
+1. Its length is atleast 6
+2. It contains at least one digit.
+3. It contians at least one lowercase English character.
+4. It contains atleast one uppercase.
+5. It contains atleast one special characters.'''
+'''n = int(input("Enter the num:- "))
+paswrd = input("Enter the Pass:- ")
+has_digit = False
+has_lower = False
+has_upper = False
+has_special = False
+for i in paswrd:
+    if len(i)>=6:
+        if i.isupper():
+            has_upper = True
+        elif i.islower():
+            has_lower = True
+        elif i.isdigit():
+            has_digit = True
+        elif i in ('!@#$%^&*()-+ '):
+            has_special = True
+miss_count = 0
+if not has_digit:
+    miss_count +=1
+if not has_lower:
+    miss_count +=1
+if not has_upper:
+    miss_count +=1
+if not has_special:
+    miss_count  +=1
+chars_needed = max(0,6-n)
+print(max(miss_count,chars_needed))'''
+
+#################################################################################
+'''
+The "Alternate" problem asks you to find the longest possible substring that meets two conditions:
+It must be composed of exactly two unique, strictly alternating characters (e.g. bebebe).
+To form this substring, you can only remove characters from the original string by deleting all instances of a specific character type.
+The goal is to test all possible pairs of characters, find the length of the longest valid resulting string, or return 0 if none can be formed.
+'''
+'''import math
+import os
+import random
+import re
+import sys
+from itertools import combinations
+
+def alternate(s):
+    unique_chars = set(s)
+    max_len = 0
+    
+    for i,j in combinations(unique_chars,2):
+        temp_string = "".join([c for c in s if c in(i,j)])
+
+        is_valid = True
+        for i in range(1,len(temp_string)):
+            if temp_string[i] == temp_string[i-1]:
+                is_valid = False
+                break
+        
+        if is_valid:
+            max_len = max(max_len,len(temp_string))
+    return max_len
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    l = int(input().strip())
+    s = input()'''
+#########################################################################
