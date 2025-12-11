@@ -98,3 +98,18 @@ print("By using For loop")
 for i in s:
     print(i)
 print("*"*20) '''
+
+# Zip the unzipped one
+'''Names = ['A', 'B', 'C']
+Age = [20, 21, 22]
+zipped = zip(Names,Age)
+print("Zipped: ",zipped)
+print(list(zipped))'''
+
+
+# UnZip the zipped one
+'''zipped = [('A',20),('B',21),('C',22)]
+names,ages = zip(*zipped)
+print(f"Names: {names}")
+print(f"Age: {ages}")'''
+

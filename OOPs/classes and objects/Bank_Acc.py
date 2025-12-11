@@ -1,7 +1,7 @@
 # The Bank Account: Create a BankAccount class. The constructor should accept the account_holder_name 
 # and an initial balance (default to 0). Add a method deposit(amount) that updates the balance and 
 # prints the new balance.
-import time
+'''import time
 class BankAccount:
     def __init__(self,name,balance):
         self.name = name
@@ -21,4 +21,15 @@ class BankAccount:
 
 name = input("Enter the Account holder name:- ")
 ba1 = BankAccount(name,balance=0)
-ba1.deposit()
+ba1.deposit()'''
+
+# Static method:- Cannot take self or cls and call be called only with then class name.
+class pp:
+    @staticmethod
+    def students():
+        print("Students of Programers Point.")
+    def faculty():
+        print("PP's Faculty.")
+        
+pp.students()
+pp.faculty()
