@@ -15,7 +15,7 @@ list_traversal([54,10,60,80,20])'''
 lst_len([54,10,60,80,20])'''
 
 # Sum of List
-def list_sum(lst):
+'''def list_sum(lst):
     Total_count = 0
     for i in lst:
         Total_count += 1
@@ -31,4 +31,5 @@ def list_sum(lst):
             print(i,end="= ")
             
     print(sum)
-list_sum([54,10,60,80,20,10,100,80])
+list_sum([54,10,60,80,20])'''
+
