@@ -36,3 +36,8 @@ for i in range(0, t):
     print("")  '''
 
 ##########################################################################################################################
+# Day-5:- Loop
+# Print the table using loop
+n = int(input("Enter the Number:- "))
+for i in range(1,11):
+    print(n,"X",i,'=',n*i)
